@@ -1,0 +1,47 @@
+/*In line Styles*/
+
+.btnStyle {
+  background: white;
+  border-radius: 50%;
+  margin-left: 38px;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+
+.btnStyleBox {
+  background: white;
+  border-radius: 10%;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+
+.siteColor {
+  color: rgb(55, 48, 186);
+}
+
+.SMContainer{
+    margin-top: 1rem;
+    width: 150px;
+    background: transparent;
+    bottom: 0;
+}
+
+.SMListSection{
+    display: inline-block;
+    margin: 0 auto 0 -40px;
+    text-align: center;
+}
+
+.SMListItem{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px'
+}
+
+.SMButton{
+    background: none;
+    border: none;
+    cursor: pointer;
+}

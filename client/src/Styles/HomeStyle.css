@@ -1,0 +1,36 @@
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-main-container {
+  width: 100%;
+  margin-top: -10rem;
+}
+@media (max-width: 950px) {
+  .home-main-container {
+    width: 95%;
+  }
+}
+
+.home-name-header {
+  font-size: 60px;
+  color: rgb(235, 213, 10);
+  margin-left: 110px;
+}
+
+.home-title-header {
+  font-size: 35px;
+  color: rgb(231, 199, 19);
+  margin-left: 110px;
+  margin-top: -1rem;
+}
+
+.bar {
+  margin: -5.5rem 0 3rem 0;
+  width: 700px;
+  margin-left: 110px;
+  padding-bottom: 6rem;
+  border-bottom: 2px solid #e7dc0d;
+}
