@@ -1,8 +1,8 @@
-.skill-cursor {
+.technology-cursor {
   cursor: pointer;
 }
 
-.skill-dropdown {
+.technology-dropdown {
   display: flex;
   flex-wrap: wrap;
   padding-top: 2rem;
@@ -11,41 +11,37 @@
   justify-content: center;
 }
 
-.skill-item {
-  width: 13rem;
-  height: 16rem;
+.technology-item {
+  width: 8rem;
+  height: 8rem;
   border: 1px solid #f7c59f;
   border-radius: 5px;
-  padding: 10px;
+  padding: 5px;
   background: #0d0e11;
   box-shadow: 0px 5px 12px 1px rgba(0, 0, 0, 0.59);
 }
 @media (max-width: 950px) {
-  .skill-item {
+  .technology-item {
     width: 95%;
   }
 }
 
-.skill-item-style {
+.iconContainer {
   width: 100%;
   text-align: center;
-  color: #cda281;
 }
 
-.skill-icon img {
-  width: 5rem;
-  height: 5rem;
+.techIcon {
+  width: 3rem;
+  height: 3rem;
   margin: 1rem 0;
   display: inline;
   vertical-align: center;
 }
 
-.skill-title {
-  margin-top: -0.75rem;
-  color: #d68b52;
+.techDescription {
+  margin-top: 0em;
   text-align: center;
-}
-
-.skill-information {
-  margin-top: -1rem;
+  color: #cda281;
+  font-size: 1.2em;
 }

@@ -13,7 +13,7 @@
 
 .education-item {
   width: 40%;
-  border: 1px solid #ba6626;
+  border: 1px solid #d47024;
   border-radius: 5px;
   padding: -5px;
   background: #0d0e11;
@@ -28,7 +28,7 @@
 .education-item-style {
   width: 100%;
   text-align: center;
-  color: #c08c65;
+  color: #cda281;
 }
 
 .education-icon img {
@@ -41,7 +41,7 @@
 
 .education-title {
   margin-top: -0.75rem;
-  color: #d68b52;
+  color: #d16b1d;
   text-align: center;
 }
 

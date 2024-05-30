@@ -17,7 +17,7 @@
 
 .home-name-header {
   font-size: 60px;
-  color: rgb(226, 171, 95);
+  color: #d37a35;
   margin-left: 110px;
 }
 
@@ -50,6 +50,20 @@
   padding-left: 1rem;
 }
 
+.skills-dropdown-button {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem 40rem;
+  font-size: 1rem;
+  color: rgb(228, 166, 94);
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 1rem;
+}
+
 .dropdown-button-content {
   display: flex;
   align-items: center;
@@ -64,12 +78,12 @@
 }
 
 .education-section {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 6.5rem;
 }
 
 .education-content {
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 1rem;
   background-color: #333; /* Same background color as the button */
   color: #fff; /* Text color to contrast with background */
@@ -77,4 +91,8 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Optional: add some shadow for depth */
   transition: max-height 0.3s ease-out;
   overflow: hidden;
+}
+
+.arrow-icon {
+  margin-right: 0.5rem;
 }

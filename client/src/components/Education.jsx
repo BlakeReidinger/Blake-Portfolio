@@ -12,7 +12,7 @@ function Education() {
           <div className="education-item-style">
             <div className="education-icon">
               <img src={logo1} alt="BlakeReidinger"></img>
-              <h3 className="educaction-title">DeVry University</h3>
+              <h3 className="education-title">DeVry University</h3>
               <h6 className="degree-title">Bachelors Degree (BS)</h6>
               <h6 className="degree-description">
                 Major: <em>Computer Science (Software Development)</em>
@@ -54,7 +54,7 @@ function Education() {
           <div className="education-item-style">
             <div className="education-icon">
               <img src={logo2} alt="BlakeReidinger"></img>
-              <h3 className="educaction-title">Central Texas College</h3>
+              <h3 className="education-title">Central Texas College</h3>
               <h6 className="degree-title">
                 SAP S/4HANA 1709 Certificication (BS)
               </h6>
