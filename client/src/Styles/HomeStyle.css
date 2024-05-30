@@ -6,7 +6,8 @@
 
 .home-main-container {
   width: 100%;
-  margin-top: -10rem;
+  margin-top: 0; /* Remove negative margin */
+  padding: 2rem; /* Add padding to create space */
 }
 @media (max-width: 950px) {
   .home-main-container {
@@ -16,13 +17,13 @@
 
 .home-name-header {
   font-size: 60px;
-  color: rgb(235, 213, 10);
+  color: rgb(226, 171, 95);
   margin-left: 110px;
 }
 
 .home-title-header {
   font-size: 35px;
-  color: rgb(231, 199, 19);
+  color: rgb(228, 166, 94);
   margin-left: 110px;
   margin-top: -1rem;
 }
@@ -32,5 +33,48 @@
   width: 700px;
   margin-left: 110px;
   padding-bottom: 6rem;
-  border-bottom: 2px solid #e7dc0d;
+  border-bottom: 2px solid #e2c27c;
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem 37.5rem;
+  font-size: 1rem;
+  color: rgb(228, 166, 94);
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 1rem;
+}
+
+.dropdown-button-content {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-button span {
+  margin-right: 0.5rem; /* Add spacing between the arrow symbol and text */
+}
+
+.dropdown-button:hover {
+  background-color: #555;
+}
+
+.education-section {
+  margin-top: 2rem;
+  margin-left: 6.5rem;
+}
+
+.education-content {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #333; /* Same background color as the button */
+  color: #fff; /* Text color to contrast with background */
+  border-radius: 5px; /* Matching the button's border-radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Optional: add some shadow for depth */
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
 }
