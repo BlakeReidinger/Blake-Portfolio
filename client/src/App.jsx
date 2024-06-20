@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,9 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-        <footer>
-          <p>&copy; Blake Reidinger 2024</p>
-        </footer>
+        <Footer />
       </React.Fragment>
     </BrowserRouter>
   );

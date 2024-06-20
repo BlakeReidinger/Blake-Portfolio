@@ -1,8 +1,8 @@
-.technology-cursor {
+.language-cursor {
   cursor: pointer;
 }
 
-.technology-dropdown {
+.language-dropdown {
   display: flex;
   flex-wrap: wrap;
   padding-top: 2rem;
@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-.technology-item {
+.language-item {
   width: 8rem;
   height: 8rem;
   border: 1px solid #f7c59f;
@@ -33,19 +33,19 @@
   text-align: center;
 }
 
-.techIcon {
+.languageIcon {
   width: 3rem;
   height: 3rem;
   margin: 1rem 0;
   display: inline;
   vertical-align: center;
 }
-.techIcon img {
+.languageIcon img {
   max-width: 50%;
   max-height: 90%;
 }
 
-.techDescription {
+.languageDescription {
   margin-top: 0em;
   text-align: center;
   color: #cda281;

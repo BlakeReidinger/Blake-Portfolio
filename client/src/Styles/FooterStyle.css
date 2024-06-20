@@ -1,0 +1,19 @@
+.footer-container {
+  text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.footer-list-section {
+  display: inline-block;
+  margin: 0 auto 0 -40px;
+  text-align: center;
+}
+
+.link-item {
+  color: #d68b52;
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
+}

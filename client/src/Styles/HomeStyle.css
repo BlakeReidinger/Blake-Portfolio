@@ -64,6 +64,48 @@
   padding-left: 1rem;
 }
 
+.technology-dropdown-button {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem 36.5rem;
+  font-size: 1rem;
+  color: rgb(228, 166, 94);
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 1rem;
+}
+
+.language-dropdown-button {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem 37.5rem;
+  font-size: 1rem;
+  color: rgb(228, 166, 94);
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 1rem;
+}
+
+.project-dropdown-button {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem 39rem;
+  font-size: 1rem;
+  color: rgb(228, 166, 94);
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 1rem;
+}
+
 .dropdown-button-content {
   display: flex;
   align-items: center;

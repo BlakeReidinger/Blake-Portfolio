@@ -28,7 +28,7 @@
 .education-item-style {
   width: 100%;
   text-align: center;
-  color: #cda281;
+  color: #f26d07;
 }
 
 .education-icon img {
@@ -43,6 +43,10 @@
   margin-top: -0.75rem;
   color: #d16b1d;
   text-align: center;
+}
+
+.eduacation-left-style {
+  text-align: left;
 }
 
 .degree-title {

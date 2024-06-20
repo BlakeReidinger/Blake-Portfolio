@@ -23,7 +23,7 @@ function Education() {
               <h6 className="degree-description">
                 Accoloades:{" "}
                 <em>
-                  <ul>
+                  <ul className="eduacation-left-style">
                     <li>3.8/4.00 GPA</li>
                     <li>Lead Dev Team for Final SE Project</li>
                     <li>Deans List honors(x2)</li>
@@ -34,7 +34,7 @@ function Education() {
               <h6 className="degree-description">
                 Activities:{" "}
                 <em>
-                  <ul>
+                  <ul className="eduacation-left-style">
                     <li>Weather API Project (Using PANDAS/Python)</li>
                     <li>Cashier System For a startup (using JAVA/C#)</li>
                     <li>
@@ -55,9 +55,7 @@ function Education() {
             <div className="education-icon">
               <img src={logo2} alt="BlakeReidinger"></img>
               <h3 className="education-title">Central Texas College</h3>
-              <h6 className="degree-title">
-                SAP S/4HANA 1709 Certificication (BS)
-              </h6>
+              <h6 className="degree-title">SAP S/4HANA 1709 Certificication</h6>
               <h6 className="degree-description">
                 Certified Application: <em>Buisiness Process (Intergration)</em>
               </h6>
@@ -67,7 +65,7 @@ function Education() {
               <h6 className="degree-description">
                 Skills:{" "}
                 <em>
-                  <ul>
+                  <ul className="eduacation-left-style">
                     <li>Skilled In SAP S/4HANA And SQL</li>
                     <li>SAP business process configuration & Implementation</li>
                     <li>
@@ -80,7 +78,7 @@ function Education() {
               <h6 className="degree-description">
                 Projects:{" "}
                 <em>
-                  <ul>
+                  <ul className="eduacation-left-style">
                     <li>Implemented MRP Solution Using SAP S/4HANA</li>
                     <li>
                       Implemented A Business Process Integration Demo Using SAP

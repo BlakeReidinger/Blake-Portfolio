@@ -1,0 +1,32 @@
+.resume-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resume-main-container {
+  width: 75%;
+  margin-top: 10rem;
+}
+@media (max-width: 950px) {
+  .resume-main-container {
+    width: 95%;
+  }
+}
+
+.resume-title-style {
+  font-size: 42px;
+  color: #f7c59f;
+}
+
+.resume-position {
+  margin: -2.5rem 0 3rem 0;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #d68b52;
+}
+
+.resume-img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}

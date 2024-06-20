@@ -1,0 +1,80 @@
+.project-cursor {
+  cursor: pointer;
+}
+
+.project-drop-down {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project-item {
+  width: 80%;
+  border: 1px solid #d47024;
+  border-radius: 5px;
+  background: #0d0e11;
+  box-shadow: 0px 5px 12px 1px rgba(0, 0, 0, 0.59);
+  padding: 1rem;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-item-style {
+  color: #cda281;
+  margin: 0;
+}
+
+.repository-style {
+  margin: 0;
+}
+
+.btnStyle {
+  background: black;
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.siteColor {
+  color: rgb(228, 166, 94);
+}
+
+.project-img {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+}
+
+.project-title-style {
+  margin-top: 1rem;
+  color: #d68b52;
+  text-align: left;
+}
+
+.project-title-color {
+  color: #ef6d09;
+}
+
+@media (max-width: 800px) {
+  .project-item {
+    width: 70%;
+  }
+}
+
+.project-style-left {
+  text-align: left;
+}
+
+.project-small-img {
+  vertical-align: top;
+  margin: 4px;
+  width: 6%;
+}
