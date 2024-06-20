@@ -10,6 +10,7 @@ function Footer() {
       <div className="footer-container">
         <div>© All Rights Reserved {thisYear} Blake Reidinger</div>
         <div className="footer-list-section">
+          View the GitHub repository to this website{" "}
           <a
             className="link-item"
             target="_blank"

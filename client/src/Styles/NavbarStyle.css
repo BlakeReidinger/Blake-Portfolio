@@ -1,0 +1,45 @@
+.websiteNavContainer {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background: #1a1d22 50%;
+  z-index: 1000;
+}
+
+.mainNavContentContainer {
+  width: 75%;
+}
+
+@media (max-width: 950px) {
+  .mainNavContentContainer {
+    width: 95%;
+  }
+}
+
+.navigationImg {
+  width: 6rem;
+  height: 4rem;
+  margin: 1rem 0;
+  display: inline;
+  vertical-align: center;
+}
+
+.navigationButtonContainer {
+  float: right;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navigationButton {
+  background: none;
+  border: none;
+  margin-left: 2rem;
+  color: white;
+  padding: 2rem 0;
+  font-family: "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}

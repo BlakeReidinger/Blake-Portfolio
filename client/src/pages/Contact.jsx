@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import "../Styles/ContactStyles.css";
-import "../Styles/HomeStyles.css";
+import "../Styles/ContactStyle.css";
+import "../Styles/HomeStyle.css";
 import { BsLink45Deg } from "react-icons/bs";
 
 const Contact = () => {
