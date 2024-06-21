@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <React.Fragment>
       <div className="website-container">
-        <div className="main-content-container">
+        <div className="contact-main-container">
           <br />
           <br />
           <br />

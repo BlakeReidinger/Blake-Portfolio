@@ -6,7 +6,7 @@
 
 .contact-main-container {
   width: 75%;
-  margin-top: 10rem;
+  margin: 10rem auto;
 }
 @media (max-width: 950px) {
   .contact-main-container {
