@@ -6,10 +6,11 @@
 
 .resume-main-container {
   width: 75%;
-  margin-top: 10rem;
+  margin: 10rem auto;
 }
 @media (max-width: 950px) {
   .resume-main-container {
+    margin: 10rem auto;
     width: 95%;
   }
 }
